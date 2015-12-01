@@ -1,20 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8" />
-    <title>Joe Alves</title>
-    <link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="/css/style.css" />
-</head>
-<body>
-    <main>
-        <h1>Joe Alves</h1>
-        <img src="/images/me.jpg" />
-        <ul>
-            <li><a href="/portfolio">Portfolio</a></li>
-            <li><a href="/resume">Resume</a></li>
-            <li><a href="/blog">Blog</a></li>
-        </ul>
-    </main>
-</body>
-</html>
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>Joe Alves</h1>
+<img src="/images/me.jpg" />
+{% endblock %}
